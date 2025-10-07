@@ -1,6 +1,6 @@
 require("vim-options")
 require("lazy-plugin")
-print "Rajm"
+print "Welcome Raj"
 
 
 
