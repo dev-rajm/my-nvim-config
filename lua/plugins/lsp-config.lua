@@ -15,6 +15,7 @@ return {
 					"clangd",
 					"pylsp",
 					"ts_ls",
+          "eslint",
 				},
 			})
 		end,
@@ -25,6 +26,8 @@ return {
 			vim.lsp.config("lua_ls", require("lsps.lua_ls"))
 			vim.lsp.config("lua_ls", require("lsps.pylsp"))
       vim.lsp.config("ts_ls", require("lsps.ts_ls"))
+      vim.lsp.config("clangd", require("lsps.clangd"))
+      vim.lsp.config("eslint", require("lsps.eslint"))
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})

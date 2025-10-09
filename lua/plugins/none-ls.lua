@@ -14,7 +14,7 @@ return {
 				null_ls.builtins.formatting.isort,
         null_ls.builtins.completion.spell,
         null_ls.builtins.diagnostics.cppcheck,
-        require("none-ls.diagnostics.eslint"),
+        require("none-ls.diagnostics.eslint_d"),
 			},
 		})
 
