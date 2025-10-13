@@ -1,5 +1,5 @@
-require("vim-options")
 require("lazy-plugin")
+require("rajm")
 print "Welcome Raj"
 
 
