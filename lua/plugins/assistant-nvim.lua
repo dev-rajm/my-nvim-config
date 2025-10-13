@@ -18,7 +18,6 @@ return {
 							"$FILENAME_WITH_EXTENSION",
 							"-o",
 							"$FILENAME_WITHOUT_EXTENSION",
-							"-I/Users/jatinraghav/.local/include",
 							"-std=c++20",
 						},
 					},
