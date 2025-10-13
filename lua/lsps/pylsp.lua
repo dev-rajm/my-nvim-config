@@ -1,3 +1,12 @@
 return {
-  cmd = { "python-lsp-server", "--stdio" },
+	settings = {
+		pylsp = {
+			plugins = {
+				pycodestyle = {
+					ignore = { "W391" },
+					maxLineLength = 100,
+				},
+			},
+		},
+	},
 }
