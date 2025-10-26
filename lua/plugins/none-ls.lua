@@ -13,7 +13,7 @@ return {
 				null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.isort,
         null_ls.builtins.completion.spell,
-        require("none-ls.diagnostics.eslint"),
+        require("none-ls.diagnostics.eslint_d"),
 			},
 		})
 
