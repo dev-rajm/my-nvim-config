@@ -1,5 +1,6 @@
 return {
-	"L3MON4D3/LuaSnip",
+  "L3MON4D3/LuaSnip",
+	version = "v2.*",
 	dependencies = { "saadparwaiz1/cmp_luasnip" },
 	build = "make install_jsregexp",
 	config = function()
