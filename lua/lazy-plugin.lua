@@ -22,7 +22,6 @@ require("lazy").setup({
 			import = "plugins",
 		},
 	},
-	install = { colorscheme = { "tokyonight-night" } },
 	checker = {
 		enabled = true,
 		frequency = 3600,

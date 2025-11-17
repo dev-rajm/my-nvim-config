@@ -12,7 +12,7 @@ return {
 			local root = "D:/CP"
 			local exe = root .. "/a.exe"
 			local cmd = string.format(
-				'g++ -std=c++17 -O2 -Wall "%s" -o "%s" && "%s" < "%s/input.txt" > "%s/output.txt" && type "%s/output.txt"',
+				'g++ -std=c++23 -O2 -Wall "%s" -o "%s" && "%s" < "%s/input.txt" > "%s/output.txt" && type "%s/output.txt"',
 				filename,
 				exe,
 				exe,

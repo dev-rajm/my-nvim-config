@@ -4,6 +4,6 @@ return {
     "--background-index",
     "--clang-tidy",
     "--header-insertion=never",
-    "--query-driver=C:/MinGW/bin/g++.exe",
+    "--query-driver=C:/msys64/ucrt64/bin",
   },
 }
