@@ -50,7 +50,6 @@ return {
 			vim.lsp.config("clangd", require("lsps.clangd"))
 			vim.lsp.config("gopls", require("lsps.gopls"))
 			vim.lsp.config("bashls", require("lsps.bashls"))
-      vim.lsp.config("rust_analyzer", require("lsps.rust_analyzer"))
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Define the keyword under cursor" })
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition" })
