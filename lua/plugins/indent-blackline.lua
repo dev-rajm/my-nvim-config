@@ -5,8 +5,8 @@ return {
     indent = { char = "|" },
     scope = {
       enabled = true,
-      show_start = false,
-      show_end = false,
+      show_start = true,
+      show_end = true,
       highlight = { "Function", "Label", "CursorColumn", "Whitespace" },
     },
   },
