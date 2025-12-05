@@ -1,4 +1,5 @@
 vim.opt.number = true
+vim.wo.relativenumber = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.inccommand = "split"
 vim.opt.guicursor = "n:block"
