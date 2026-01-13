@@ -8,6 +8,7 @@ return {
       "#include <bits/stdc++.h>",
       "using namespace std;",
       "",
+      "#define MOD 1000000007",
       "using ll = long long;",
       "using ld = long double;",
       "",
